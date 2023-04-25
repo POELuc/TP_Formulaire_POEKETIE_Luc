@@ -24,7 +24,7 @@ form{
     display:solid;
     justify-content: center;
     display: grid; /*display grid permet la création d'un espace en frome de tableau*/
-    grid-template-columns: 51% 60%;/* mise en forme du site web, les valeurs sont une liste séparée par des espaces, où chaque valeur spécifie la taille de la colonne correspondante.
+    grid-template-columns: 51% 60%;/*  permet la mise en forme du site web, les valeurs sont une liste séparée par des espaces, où chaque valeur spécifie la taille de la colonne correspondante.
 
 
     */
