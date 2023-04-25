@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>formulaire</title> <!--intitulé du page web -->
+    <!--liens qui permet la création des icones -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />"
+    <link rel="stylesheet" href="style_formulaire.css">
+</head>
+<body>
+     <!--corps du formulaire.-->
+    <div class="corps du formulaire">
+        <form action="" id="formulaire"> <!--permet de crée  un formulaire sous html-->
+
+            <div class="gauche"><!-- div de class informations personelles -->
+        
+                <div class="identiter">
+                    <!-- nom -->
+                    <div id="groupeNom">
+                        <i class="fa-solid fa-user"></i>
+                        <label for="nom"> Nom :</label>
+                        <input type="text" id = nom>
+                    </div>
+
+                    <div id="groupePrenom">    
+                        <i class="fa-solid fa-user"></i> <!--icone des identité-->
+                        <label for="prenom">Prénom : </label>  <!--  prenom --> 
+                        <input type="text" id="prenom" name="prenom">
+                    </div>
+
+                    <div id="groupeMail">
+                        <i class="fa-solid fa-envelope"></i> <!--icone envoe-->
+                        <label for="email">Adresse mail : </label> <!--casse pour l'email-->
+                        <input type="email" id="email">
+                    </div>
+
+                </div>
+
+                <div class="groupeDe3">
+                    <div class="option"> <!-- div de notre casse echéance-->
+                            <!-- choix des réponses -->
+                            <h4 id="titreEch">Echéance:</h4>
+                            <div id="radio3">
+                                <input type="radio"name="choix1" id="chois-1">
+                                sous 3 mois
+                                <br>
+                                <input type="radio"name="choix2" id="chois-2">
+                                3 à 6 mois
+                                <br>
+                                <input type="radio"name="choix3" id="chois-3">
+                                plus de 6 mois
+                            </div>
+                    </div>
+
+                    <div id="groupeDe2"> <!--sous div-->
+                        <div class="nature_demande">
+                            <h4 id="titreNature">Nature de la demande: </h4>
+                            <!-- titre de la demande -->
+                            <div id="rep1">
+                                <input type="checkbox" name="reponse1" id="reponseN1">
+                                inverstissement
+                            </div>
+                            <br>
+                            <!-- presentation de conseil -->
+                            <div id="rep1">
+                                <input type="checkbox" name="reponse2" id="reponseN2">
+                                Presentation de conseil 
+                            </div>
+                        </div>
+
+                            <div class="selection">
+                                <label for="selction_jours">Reponses souhaitée sous :</label>
+                                <!--permet de faire un choix sur les options disponibles-->
+                                <select name="selectionJour" id="selection-jour">
+                                <option value="8 jour">8 jours</option>
+                                <option value="4 jour">4 jour</option>
+                                <option value="2 jour">2 jour</option>
+                                <option value="1 jour">1 jour</option>
+                                </select>
+                            </div>
+                    </div>
+               </div>
+        
+                    
+               
+            </div>
+            <div class="droit"> <!--div partie de droite-->
+
+                <div id="groupeDe2_2">
+                    <div class="intituler">
+                        <label for="intitulee">Intitulé</label>
+                        <input type="text" id="intitulee" col="40">
+                    </div>
+
+                    <div id="groupeDescription">
+                        <div class="description_projet">
+                            <label for="description">Description du projet:</label>
+
+                            <br>
+                            <!--permet la création d'un espace d'écriture vide sur la page web selon une taille -->   
+                            <textarea  id="description_projet"   cols="40" rows="20"></textarea>
+
+                        </div>
+                    </div>   
+                </div>
+
+                    <div class="boutton"> <!--partie du bas de notre formulaire-->
+                        <input type="submit" value="Envoyer">
+                        <input type="reset" value="reinitialiser"> <!--effacement de la valeur en appuyant sur reinitialiser -->
+                    </div>
+                    
+            </div>
+                
+                 
+        </form>
+
+    </div>
+</body>
+</html>
