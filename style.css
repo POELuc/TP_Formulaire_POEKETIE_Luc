@@ -1,0 +1,159 @@
+
+*{
+    margin:2px; /* "margin" la taille des marges sur les quatres côtés de l'élément. */
+    padding:2px;/*permet de définir les différents écarts de remplissage sur les quatre côtés d'un élément*/
+}
+body{
+    display:flex;/*permet de mettre au centre un élément*/
+    flex-wrap: nowrap;
+    justify-content: center;
+    height: 1000px; /* permet de pouvoir etaler l'élement du haut et de bas  */
+    background:linear-gradient(rgb(176, 172, 172),rgb(74, 72, 74),rgb(224, 226, 226))
+}
+
+.corpsduformulaire{
+    display:flex;
+    justify-content: center;
+    
+    background-color:rgb(43, 44, 44);/* "background-color" permet de mettre de la couleur en arrière-plan d'un élement  */
+    border-radius: 20px; /*  ajoute des coins arrondis à l'encadré*/
+    width: 1000px;
+    height: 600px;
+}
+form{
+    display:solid;
+    justify-content: center;
+    display: grid; /*display grid permet la création d'un espace en frome de tableau*/
+    grid-template-columns: 51% 60%;
+    font-family: "Fira Sans", Arial, sans-serif; /*ecriture de police*/
+
+}
+
+
+   
+.identiter{
+    padding-bottom: 70%;
+    display: grid;
+
+
+}
+.droit,.option,.identiter,.selection{ /* appel des differents div qui auront le memes rendus final*/
+    margin: 3px;
+    padding: 5px;
+    border-radius: 20px;
+}
+.droit{
+
+    border-radius: 20px;
+
+}
+.gauche{
+
+    border-radius: 30px;
+}
+
+#nom, #prenom, #email,#intitulee,#description_projet{
+    border: solid rgb(218, 217, 217);
+    border-radius: 20px;
+}
+
+.option,.demande{
+    border-radius: 20px;
+    padding-bottom: 20%;
+}
+
+
+.gauche{
+    display: grid;
+}
+
+
+
+.identiter{
+    background-color:rgb(52, 51, 53) ;
+    
+}
+
+
+
+.demande{
+    height: 80px;
+    padding-bottom: 10%;
+}
+
+h4{
+    border-radius: 20px;
+    background:linear-gradient(rgb(200, 200, 200),rgb(165, 165, 165));
+    margin: 10px;
+}
+
+label{
+    border-radius: 50px;
+    background:linear-gradient(rgb(186, 186, 186),rgb(120, 120, 120));
+    
+}
+
+.option{
+    display: grid;
+    grid-template-columns: 40% 50%;
+    width: 250px;/* "width" permet de pouvoir l'etalation  l'élement*/
+    height: 20px;
+    
+}
+
+#groupeDe2,.option,#Nom,#Prenom,#Mail{
+    border-radius: 20px;
+    background:linear-gradient(rgb(100, 134, 134),rgb(59, 91, 99));
+}
+.groupeDe3{
+
+    border-radius: 20px;
+    height: 300px;
+    background-color:rgb(46, 44, 46) ;
+}
+
+.intituler,#groupeDescription{
+    background:linear-gradient(rgb(100, 134, 134),rgb(78, 110, 118));/* "background:linear-gradient" permet de mettre de la couleur en drégrader dans l'arrière-plan d'un élément   */
+    border-radius: 20px;
+    margin: 20px;
+    padding: 10px;
+}
+
+#Nom,#Prenom,#Mail{
+    height: 35px;
+}
+#groupeDe2_2{
+    background-color:rgb(55, 51, 55) ;
+    border-radius: 20px;
+}
+.intituler{
+    height: 20px;
+    padding-bottom: 20px;
+}
+
+#titreEch{
+    width: 83px;
+    height: 15px;
+}
+
+#titreNature{
+    width: 180px;
+}
+
+#radio3,.selection{
+    background:linear-gradient(rgb(160, 160, 160),rgb(118, 118, 118));
+    border-radius: 10px;
+}
+#rep1{
+    background:linear-gradient(rgb(99, 99, 99),rgb(117, 117, 117));
+    padding:5px ;
+    margin: -3px;
+    border-radius: 10px;
+    width: 190px;
+    height: 20px;
+}
+
+
+
+
+
